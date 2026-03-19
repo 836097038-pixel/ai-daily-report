@@ -13,79 +13,28 @@
             padding: 40px 20px;
         }
         .container { max-width: 900px; margin: 0 auto; }
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        .header h1 {
-            color: #fff;
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-        .header .date {
-            color: #888;
-            font-size: 1.1em;
-        }
+        .header { text-align: center; margin-bottom: 40px; }
+        .header h1 { color: #fff; font-size: 2.5em; margin-bottom: 10px; }
+        .header .date { color: #888; font-size: 1.1em; }
         .summary {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border-radius: 16px;
-            padding: 30px;
-            margin-bottom: 30px;
-            color: #fff;
+            border-radius: 16px; padding: 30px; margin-bottom: 30px; color: #fff;
         }
         .summary h2 { margin-bottom: 15px; }
         .summary p { line-height: 1.8; opacity: 0.95; }
         .category {
             background: rgba(255,255,255,0.05);
-            border-radius: 12px;
-            padding: 25px;
-            margin-bottom: 20px;
+            border-radius: 12px; padding: 25px; margin-bottom: 20px;
         }
-        .category h3 {
-            color: #00d4ff;
-            margin-bottom: 15px;
-            padding-bottom: 10px;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
-        }
-        .article {
-            background: rgba(255,255,255,0.03);
-            border-radius: 8px;
-            padding: 15px;
-            margin-bottom: 12px;
-            transition: transform 0.2s;
-        }
-        .article:hover { transform: translateX(5px); }
-        .article a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: 500;
-            display: block;
-        }
+        .category h3 { color: #00d4ff; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .article { background: rgba(255,255,255,0.03); border-radius: 8px; padding: 15px; margin-bottom: 12px; }
+        .article a { color: #fff; text-decoration: none; font-weight: 500; display: block; }
         .article a:hover { color: #00d4ff; }
-        .article .meta {
-            color: #666;
-            font-size: 0.85em;
-            margin-top: 8px;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 40px;
-            color: #666;
-        }
-        .stats {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            margin-bottom: 20px;
-        }
-        .stat {
-            text-align: center;
-        }
-        .stat .num {
-            font-size: 2em;
-            color: #00d4ff;
-            font-weight: bold;
-        }
+        .article .meta { color: #666; font-size: 0.85em; margin-top: 8px; }
+        .footer { text-align: center; margin-top: 40px; color: #666; }
+        .stats { display: flex; justify-content: center; gap: 30px; margin-bottom: 20px; }
+        .stat { text-align: center; }
+        .stat .num { font-size: 2em; color: #00d4ff; font-weight: bold; }
         .stat .label { color: #888; font-size: 0.9em; }
     </style>
 </head>
@@ -98,62 +47,44 @@
         
         <div class="summary">
             <h2>📊 今日概览</h2>
-            <p>本报告汇总昨日全球AI领域重要动态，涵盖新产品发布、行业资讯、商业应用、创业融资及社区讨论等板块。数据来源包括虎嗅、Hacker News等科技媒体。</p>
+            <p>本报告汇总昨日全球AI领域重要动态，涵盖新产品发布、行业资讯、商业应用、创业融资及社区讨论等板块。</p>
         </div>
 
         <div class="stats">
-            <div class="stat">
-                <div class="num">10</div>
-                <div class="label">文章数</div>
-            </div>
-            <div class="stat">
-                <div class="num">2</div>
-                <div class="label">数据源</div>
-            </div>
-            <div class="stat">
-                <div class="num">5</div>
-                <div class="label">类别</div>
-            </div>
+            <div class="stat"><div class="num">0</div><div class="label">文章数</div></div>
+            <div class="stat"><div class="num">2</div><div class="label">数据源</div></div>
+            <div class="stat"><div class="num">5</div><div class="label">类别</div></div>
         </div>
 
         <div class="category">
             <h3>🏆 新品动态</h3>
-            <div class="article">
-                <a href="#">暂无最新抓取数据</a>
-                <div class="meta">来源: -</div>
-            </div>
+        <div class="article">
+            <a href="#">暂无抓取数据</a>
+            <div class="meta">来源: -</div>
+        </div>
         </div>
 
         <div class="category">
             <h3>📰 行业资讯</h3>
-            <div class="article">
-                <a href="#">暂无最新抓取数据</a>
-                <div class="meta">来源: -</div>
-            </div>
+        <div class="article">
+            <a href="#">暂无抓取数据</a>
+            <div class="meta">来源: -</div>
+        </div>
         </div>
 
         <div class="category">
             <h3>💼 商业运用</h3>
-            <div class="article">
-                <a href="#">暂无最新抓取数据</a>
-                <div class="meta">来源: -</div>
-            </div>
+            <div class="article"><a href="#">暂无最新抓取数据</a><div class="meta">来源: -</div></div>
         </div>
 
         <div class="category">
             <h3>🚀 创业模式</h3>
-            <div class="article">
-                <a href="#">暂无最新抓取数据</a>
-                <div class="meta">来源: -</div>
-            </div>
+            <div class="article"><a href="#">暂无最新抓取数据</a><div class="meta">来源: -</div></div>
         </div>
 
         <div class="category">
             <h3>💬 用户讨论</h3>
-            <div class="article">
-                <a href="#">暂无最新抓取数据</a>
-                <div class="meta">来源: -</div>
-            </div>
+            <div class="article"><a href="#">暂无最新抓取数据</a><div class="meta">来源: -</div></div>
         </div>
 
         <div class="footer">
